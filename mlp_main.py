@@ -39,4 +39,4 @@ train_kfold(input_features,
             0.01,
             400)
 
-closed_loop_search("oldData/best_mlp_model.pth", 4, 100)
+closed_loop_search("data/mlp_model.pth", 4, 100)

@@ -7,7 +7,7 @@ from sklearn.model_selection import ParameterGrid
 from utils_csv_to_list import merged_csv_to_list, read_csv_to_list
 from element_binary_to_proportion import binary_to_proportion
 
-input_features = binary_to_proportion(read_csv_to_list("oldData/compilation_four_populations.csv"))
+input_features = binary_to_proportion(read_csv_to_list("data/compilation_four_populations.csv"))
 file_paths = (
     'data/first_population_fitness.csv',
     'data/second_population_fitness.csv',
