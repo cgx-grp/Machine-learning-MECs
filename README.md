@@ -30,5 +30,5 @@ python mlp_main.py
 
 ### 3.3. GA-mlp closed-loop optimization
 ```bash
-ga_integrated_mlp.py
+python ga_integrated_mlp.py
 ```
